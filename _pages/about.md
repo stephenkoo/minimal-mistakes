@@ -3,6 +3,7 @@ permalink: /about/
 title: "About Me"
 excerpt: "Full-stack web developer, startup enthusiast."
 modified: 2016-04-18T16:39:37-04:00
+layout: single
 ---
 # Hi, I'm Stephen.
 
