@@ -1,5 +1,5 @@
 ---
-permalink: /hi/
+permalink: /about/
 title: "About Me"
 excerpt: "Stephen Koo | Full-stack web developer, startup enthusiast."
 modified: 2016-04-18T16:39:37-04:00
