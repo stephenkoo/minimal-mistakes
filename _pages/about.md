@@ -1,11 +1,10 @@
 ---
-permalink: /about/
+permalink: /hi/
 title: "About Me"
+excerpt: "Stephen Koo | Full-stack web developer, startup enthusiast."
 modified: 2016-04-18T16:39:37-04:00
 ---
-{% include base_path %}
-
-# Hi, I'm Stephen!
+# Hi, I'm Stephen.
 
 I'm a recently turned full-stack developer.
 I have experience building Rails and Node web applications, using JavaScript libraries like Angular, and responsive front-end design. I'm currently learning React, Go, and AWS.
@@ -21,5 +20,5 @@ If you think you'd like working with me or chatting with me over a cup of coffee
 
 [zomato]: https://www.zomato.com
 [flippa]: https://flippa.com
-[sitepoint]: https://www.sitepoint.com
+[sitepoint]: https://www.sitepoint.com/
 [gmail]: mailto:stephenyrkoo@gmail.com
