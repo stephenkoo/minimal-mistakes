@@ -2,7 +2,7 @@
 permalink: /about/
 title: "About Me"
 excerpt: "Full-stack web developer, startup enthusiast."
-layout: single
+<!-- layout: single -->
 ---
 ## Hi, I'm Stephen.
 
