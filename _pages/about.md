@@ -3,6 +3,7 @@ permalink: /about/
 title: "About Me"
 excerpt: "Stephen Koo | Full-stack web developer, startup enthusiast."
 ---
+{% include base_path %}
 
 # Hi, I'm Stephen.
 
