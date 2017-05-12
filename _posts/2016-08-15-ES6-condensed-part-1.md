@@ -1,5 +1,5 @@
 ---
-title: "ES6 Condensed: Part 1/3 - Strict mode, variables, arrow functions"
+title: "JavaScript ES6 Condensed: Part 1/3 - Strict mode, variables, arrow functions"
 categories:
     - lessons
 tags:

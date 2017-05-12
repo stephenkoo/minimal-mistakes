@@ -1,5 +1,5 @@
 ---
-title: "ES6 Condensed: Part 2/3 - Arrays, objects, maps & sets"
+title: "JavaScript ES6 Condensed: Part 2/3 - Arrays, objects, maps & sets"
 categories:
     - lessons
 tags:

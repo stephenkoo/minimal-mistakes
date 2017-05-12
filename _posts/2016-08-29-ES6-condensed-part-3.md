@@ -1,5 +1,5 @@
 ---
-title: "ES6 Condensed: Part 3/3 - Classes, symbols, promises, iterators & generators"
+title: "JavaScript ES6 Condensed: Part 3/3 - Classes, symbols, promises, iterators & generators"
 categories:
     - lessons
 tags:

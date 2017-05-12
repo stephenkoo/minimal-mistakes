@@ -1,5 +1,5 @@
 ---
-title: "ES6 Condensed: Part 0/3 - Running ES6 On The Front-end and Back-end"
+title: "JavaScript ES6 Condensed: Part 0/3 - Running ES6 On The Front-end and Back-end"
 categories:
     - lessons
 tags:
