@@ -1,7 +1,7 @@
 ---
 title: "ES6 Condensed: Part 0/3 - Running ES6 On The Front-end and Back-end"
 categories:
-    - notes
+    - lessons
 tags:
     - Javascript/ECMAScript
     - ES6
@@ -11,6 +11,26 @@ tags:
 - [**Part 1** - Strict mode, variables, arrow functions][ES6-part-1]
 - [**Part 2** - Arrays, objects, maps & sets][ES6-part-2]
 - [**Part 3** - Classes, symbols, promises, iterators & generators][ES6-part-3]
+
+## Short note on how I write
+I don’t like to read superfluous text when learning (including this section). I assume you don’t too.
+
+I try to be succinct so that this can be used as a quick reference guide. This might mean you might sometimes need a
+more detailed explanation of concepts I’ve discussed.
+
+If so, I highly recommend reading up documentation ([MDN][mdn] especially) or watching the included videos to help
+deepen your understanding of the concepts you learn here.
+
+## Let's Learn ES6 In 3 Hours.
+This series attempts to condense everything you'll cover from these amazing YouTube courses (as well some other resources) into easily digestible posts:
+
+**Nodecasts' "Javascript ES6" YouTube series**
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HIS8juawTmM?list=PLVHlCYNvnqYouIVj3IgK3RmzpnWMaoqkw" frameborder="0" allowfullscreen></iframe>
+
+**Ryan Christiani's "Let's Learn ES6" YouTube series**
+<iframe width="560" height="315" src="https://www.youtube.com/embed/LTbnmiXWs2k?list=PL57atfCFqj2h5fpdZD-doGEIs0NZxeJTX" frameborder="0" allowfullscreen></iframe>
+
+If you do find Ryan's videos helpful like I did, take a look at [Ryan's upcoming book "Let's Learn ES6"][lets-learn-es6-book].
 
 ## A. Execute ES6 files in bash (babel-cli)
 If you have a .js file written in ES6, you can run it by installing babel.
@@ -136,7 +156,8 @@ nvm i node
 node --v8-options | grep "harmony" # View ES6 options
 node --harmony_destructuring app.js # E.g. Using ES6 destructuring option when executing file
 ```
-
+[mdn]: https://developer.mozilla.org
+[lets-learn-es6-book]: http://letslearnes6.com/
 [ES6-part-1]: https://stephenkoo.github.io/notes/ES6-condensed-part-1/
 [ES6-part-2]: https://stephenkoo.github.io/notes/ES6-condensed-part-2/
 [ES6-part-3]: https://stephenkoo.github.io/notes/ES6-condensed-part-3/

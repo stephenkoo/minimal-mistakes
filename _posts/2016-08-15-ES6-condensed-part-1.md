@@ -1,7 +1,7 @@
 ---
 title: "ES6 Condensed: Part 1/3 - Strict mode, variables, arrow functions"
 categories:
-    - notes
+    - lessons
 tags:
     - Javascript/ECMAScript
     - ES6
@@ -11,17 +11,6 @@ tags:
 - -> **Part 1** - Strict mode, variables, arrow functions
 - [**Part 2** - Arrays, objects, maps & sets][ES6-part-2]
 - [**Part 3** - Classes, symbols, promises, iterators & generators][ES6-part-3]
-
-## Let's Learn ES6 In 3 Hours.
-This series attempts to condense everything you'll cover from these amazing YouTube courses (as well some other resources) into easily digestible posts:
-
-**Nodecasts' "Javascript ES6" YouTube series**
-<iframe width="560" height="315" src="https://www.youtube.com/embed/HIS8juawTmM?list=PLVHlCYNvnqYouIVj3IgK3RmzpnWMaoqkw" frameborder="0" allowfullscreen></iframe>
-
-**Ryan Christiani's "Let's Learn ES6" YouTube series**
-<iframe width="560" height="315" src="https://www.youtube.com/embed/LTbnmiXWs2k?list=PL57atfCFqj2h5fpdZD-doGEIs0NZxeJTX" frameborder="0" allowfullscreen></iframe>
-
-If you do find Ryan's videos helpful like I did, take a look at [Ryan's upcoming book "Let's Learn ES6"][lets-learn-es6-book].
 
 ## 0.1 Strict mode
 Technically introduced in ES5, using strict mode is recommended.
@@ -111,7 +100,7 @@ Use ``template literals`` to interpolate strings.
 var name = "Stephen"
 var hobby = "dancing"
 
-console.log("Did you know?\n" + 
+console.log("Did you know?\n" +
 name + " likes " + hobby + ".") // Multi-line text used to be imppossible without \n - ::Unterminated string constant
 
 console.log(`Did you know?
@@ -344,8 +333,6 @@ console.log(
     null, 2)
 )
 ```
-
-[lets-learn-es6-book]: http://letslearnes6.com/
 [ES6-part-0]: https://stephenkoo.github.io/notes/ES6-condensed-part-0/
 [ES6-part-2]: https://stephenkoo.github.io/notes/ES6-condensed-part-2/
 [ES6-part-3]: https://stephenkoo.github.io/notes/ES6-condensed-part-3/

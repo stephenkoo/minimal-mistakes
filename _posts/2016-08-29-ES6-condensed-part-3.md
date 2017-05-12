@@ -1,7 +1,7 @@
 ---
 title: "ES6 Condensed: Part 3/3 - Classes, symbols, promises, iterators & generators"
 categories:
-    - notes
+    - lessons
 tags:
     - Javascript/ECMAScript
     - ES6
@@ -138,13 +138,13 @@ A promise has 3 states:
 ```js
 "use strict"
 
-let p = new Promise((resolve, reject) => {  
+let p = new Promise((resolve, reject) => {
   resolve('An immediately fulfilled promise.')
 })
 // or alternatively:
 let p = Promise.resolve(42);
 
-let p = new Promise((resolve, reject) => {  
+let p = new Promise((resolve, reject) => {
   setTimeout(() => {
     resolve('An timed fullfilled promise.')
   }, 1000)
@@ -172,7 +172,7 @@ Use `.then()` method to consume/use this value.
 
 ```js
 // .then()'s 1st param is fulfilled, 2nd parameter is rejected
-p.then((val) => console.log("fulfilled:", val),  
+p.then((val) => console.log("fulfilled:", val),
        (err) => console.log("rejected: ", err))
 
 // So, same as:
@@ -204,7 +204,7 @@ A handler that throws an exception/error causes a chain to treat the promise as 
 
 ```js
 // A fulfilled promise
-let p = new Promise((resolve, reject) => {  
+let p = new Promise((resolve, reject) => {
   resolve(4);
 })
 
@@ -220,14 +220,14 @@ p .then((val) => val + 4) // But in another chain referring to the same promise,
 
 ```js
 // A promise designed to throw error rather than explicitly reject.
-let p = new Promise((resolve, reject) => {  
-  if (true)  
+let p = new Promise((resolve, reject) => {
+  if (true)
     throw new Error("rejected!") // treats as rejection
   else
     resolve(4)
 })
 // No need to throw an error in handlers, since promise already does so.
-p.then((val) => val + 2)  
+p.then((val) => val + 2)
  .then((val) => console.log("got", val))
  .catch((err) => console.log("error: ", err.message)) // :: error: rejected!
 ```
@@ -349,7 +349,7 @@ Promise.all([
 Here's a function wrapper for jQuery's `.getJSON()` method which fetch JSON results from a url which returns a promise.
 
 ```js
-var fetchJSON = function(url) {  
+var fetchJSON = function(url) {
   return new Promise((resolve, reject) => {
     $.getJSON(url)
       .done((json) => resolve(json))
@@ -357,7 +357,7 @@ var fetchJSON = function(url) {
   })
 }
 
-var itemUrls = {  
+var itemUrls = {
     'http://www.api.com/items/1234',
     'http://www.api.com/items/4567'
   },
@@ -367,7 +367,7 @@ var itemUrls = {
 Setup an array of promises which will fulfill with the JSON results of fetching the response from each of the urls in our itemUrls array.
 
 ```js
-Promise.all(itemPromises)  
+Promise.all(itemPromises)
   .then(function(results) { // we only get here if ALL promises fulfill
      results.forEach(function(item) {
        /* process item */
@@ -382,14 +382,14 @@ Setup that states if url is too slow to respond to our request, use a default va
 
 ```js
 // A Promise that times out after ms milliseconds
-function delay(ms) {  
+function delay(ms) {
   return new Promise((resolve, reject) => {
     setTimeout(resolve, ms)
   })
 }
 
 // Whichever promise fulfills first is the result passed to our handler
-Promise.race([  
+Promise.race([
   fetchJSON('http://www.api.com/profile/currentuser'),
   delay(5000).then(() => { user: "guest" })
 ])
