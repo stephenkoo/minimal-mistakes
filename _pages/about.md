@@ -4,26 +4,34 @@ title: "About Me"
 excerpt: "Full-stack web developer, startup enthusiast."
 layout: single
 ---
-## Hi, I'm Stephen.
+## Hi, I’m Stephen.
 
 
-I'm a recently turned full-stack developer.
+I’m a front-end developer who dabbles with app & back-end development.
 
-I have experience building Rails and Node web applications, using JavaScript libraries like Angular, and responsive front-end design. I'm currently learning React, Go, and AWS.
+I’m most experienced with tech like JavaScript, ReactJS + Webpack, SASS, CSS, HTML5.
+I’m passionate about back-end and iOS development - especially with languages like Golang, Elixir, Node.js and Swift.
 
+Currently in a innovative, hip digital agency called [Inlight][inlight] - building interesting & ambitious web apps for
+clients like [ahm][ahm insurance], [SGIO][sgio] & [SGIC Insurance][sgic], Cobram, and
+[Chadstone Shopping Centre][chadstone].
 
-I used to work in product management, growth hacking, business development, digital marketing and sales for amazing tech startups like [Zomato][zomato], [Flippa][flippa], and [Sitepoint][sitepoint]. 
+When I’m not building web apps, I’ll be out camping, audiobook-ing [(check out my current favourite book)][name of the wind],
+practicing the salsa (rather badly), doing calisthenics, messing with my guitar and practicing Swift.
+Not all at once.
 
-I decided I wanted to be a developer so that I can build life-changing and elegant products with other brilliant, intelligent developers and engineers.
+I’ve also worked in product management, growth hacking, business development, digital marketing and sales for amazing
+tech startups like [Zomato][zomato], [Flippa][flippa], and [Sitepoint][sitepoint].
 
+If you think I’m a cool guy (I am) that you’d like to work, or chat about stuff, shoot me an email at
+[stephenyrkoo@gmail.com][gmail].
 
-When I'm not coding or learning to code, you can find me in a new cafe taking awkward foodshots, on a tram listening to audiobooks on entrepreneurship and startups, or at home watching anime and occasionally playing a single-player RPG like the Witcher 3.
-
-I'm not entirely sure why you'll be in my home though...
-
-
-If you think you'd like working with me or chatting with me over a cup of coffee, send me an email at [stephenyrkoo@gmail.com][gmail].
-
+[inlight]: https://inlight.com.au
+[ahm insurance]: https://ahm.com.au
+[name of the wind]: http://www.audible.com.au/pd/Sci-Fi-Fantasy/The-Name-of-the-Wind-Audiobook/B00FEZMHDE
+[sgic]: https://www.sgic.com.au/
+[sgio]: https://www.sgio.com.au/
+[chadstone]: https://www.chadstone.com.au
 [zomato]: https://www.zomato.com
 [flippa]: https://flippa.com
 [sitepoint]: https://www.sitepoint.com/
