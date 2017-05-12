@@ -8,8 +8,8 @@ tags:
 I love CSS pre-processors like SASS because they make CSS so much more
 functional.
 
-(I like SCSS specifically because I don’t have to wrangle with false positive
-linting warnings.)
+(I like SCSS specifically because I sometimes have to wrangle with false positive
+linting warnings with SASS.)
 
 Here are my favourite SASS mixins (and other cool SASS stuff) that I’ve found
 while scouring the web for the most useful SASS tricks, as well as gems that
