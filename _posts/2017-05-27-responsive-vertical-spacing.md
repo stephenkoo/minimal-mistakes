@@ -34,16 +34,14 @@ Over many quaint and curious articles that my Google search bore—
 
 (You’re sorely mistaken if you think I'll continue this post in trochaic octameter.)
 
-So, what I intended f
 ```scss
-s
+
 ```
 
-Checked
+*TO BE CONTINUED*
 
 Fret not, dear Reader, I shall keep you apprised should I make further progress in this Humble Endeavour.
 Trudge onward!
-
 
 [inlight]: http://inlight.com.au/
 [bootstrap spacing]: https://v4-alpha.getbootstrap.com/utilities/spacing/
