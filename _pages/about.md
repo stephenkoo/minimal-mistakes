@@ -18,12 +18,13 @@ clients like [ahm][ahm insurance], [SGIO][sgio] & [SGIC Insurance][sgic], [Cobra
 
 When I’m not building web apps, I’ll be out camping, audiobook-ing [(check out my current favourite book)][name of the wind],
 practicing the salsa (rather badly), doing calisthenics, messing with my guitar and practicing Swift.
-Not all at once.
+
+Not all at once though.
 
 I’ve also worked in product management, growth hacking, business development, digital marketing and sales for amazing
 tech startups like [Zomato][zomato], [Flippa][flippa], and [Sitepoint][sitepoint].
 
-If you think I’m a cool guy (I am) that you’d like to work, or chat about stuff, shoot me an email at
+If you think I’m a cool guy (I am) that you’d like to work with or just to hang out, shoot me an email at
 [stephenyrkoo@gmail.com][gmail].
 
 [inlight]: https://inlight.com.au
