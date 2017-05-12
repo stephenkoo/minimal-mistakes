@@ -97,7 +97,7 @@ If so, I highly recommend Eduardo Bouça and Hugo Giraudel’s
 Eduardo’s done a great job explaining how their library works on
 [CSS-Tricks][css-tricks approaches to media].
 
-Here’s an example of I like to use it:
+Here’s an example of how I like to use it:
 ```scss
 $breakpoints: (
   'bp-1': 576px;
