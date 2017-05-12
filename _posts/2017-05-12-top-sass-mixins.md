@@ -16,7 +16,7 @@ while scouring the web for the most useful SASS tricks, as well as gems that
 I’ve picked up on large-scale projects I’ve worked on.
 
 ## 0.0 What’s the difference between SASS mixins, functions, placeholders and whatnot?
-I’ll be writing a post about the differences between these are soon, but for
+I’ll be writing a post about what the differences between these are soon, but for
 now, think of a `@mixin` as smart css declarations that
 change depending on what inputs you put into the mixin.
 
